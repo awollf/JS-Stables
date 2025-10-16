@@ -49,3 +49,25 @@ let horses = {
 let horses = [horseOne, horseTwo, horseThree, horseFour, horseFive];
     console.log(horses);
 
+    // LAB 2
+
+let usedStalls = 3;
+let totalStalls= 6;
+
+function checkAvailableStalls(total, used){
+    let available = totalStalls - usedStalls; 
+console.log("there are " + available + " stalls Available.")
+}
+checkAvailableStalls(totalStalls, usedStalls);
+
+console.log(availableStalls);
+
+function latePayment(horse) {
+    return horse.monthlyRent * 1.2
+}
+console.log(latePayment(horseThree));
+
+function getNickname(horse){return horse.nickname;}
+console.log(getNickname(horseTwo));
+
+
