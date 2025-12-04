@@ -1,0 +1,42 @@
+// track items added to shopping cart
+// use array of objets for what is inside cart 
+// cart already has 3 items 
+// each object has name and price 
+// function should accept array 
+// add an object to cart 
+
+
+
+let cart = [
+    {name: "apples", 
+      price: 5},
+    {name: "carrots", 
+      price: 4},
+    {name: "hay", 
+      price: 30}
+];
+
+function addToCart(currentCart, itemToAdd) {
+    currentCart.push(itemToAdd);
+    console.log("You've added " itemToAdd.name + " to your cart.")
+}
+
+let totalCartItems = currentCart
+return totalCart.length;
+
+
+
+updateCart(cart, {name: "ribbons", price: 4})
+
+addToCart(noodles, 4);
+addToCart(poptarts, 5);
+
+
+function cartTotal(objects + amount);
+
+function fillCart(apples, carrots, chicken) { console.log(apples, carrots, chicken);}
+
+function addCart(noodles, poptarts); {console.log(noodles, poptarts);}
+
+(if  == --) console.log("Your cart has " cartTotal "items!" )
+

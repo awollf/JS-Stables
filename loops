@@ -1,0 +1,74 @@
+//LOOP
+
+//for (let i = 0; i < 10; i++) {
+//    console.log(i);
+//}
+
+// for loops need an initializer (i) what number do you count from?
+//(let i = 0)
+// Condition - when do i stop counting, or if statement is true, keep counting
+//until someVariable reaches a certain amount
+// iterator 
+// (i++)
+// how much should "i" increment the initializer by each time i run through the loop
+
+// i can be interchangeable by the letter but i is preferred - ensure you change all i's
+
+//____________________________________________________________________________________
+
+// let treats = ["carrots", "strawberry", "toffee"];
+// console.log("hey horse, come get your" + treats[0] + "!");
+// console.log("hey horse, come get your" + treats[1] + "!");
+// console.log("hey horse, come get your" + treats[2] + "!"); 
+// console.log("My treats array has " + treats.length + " things in it.");
+
+// let horses = ["Pebbles", "Toffee", "Sprite"];
+
+// for (let i = 0; i < treats.length; 1++) {
+//     console.log(i);
+// }
+
+// for (let i = 0; i < horses.length; i++) {
+//     console.log(i);
+// }
+
+//______________________________________________________________________________________
+
+let horses = [
+{ 
+name: "Pepper",
+faveTreat: "Salt",
+isInside: true, 
+},
+{
+    name: "Cayanne",
+    faveTreat: "Hot Sauce",
+    isInside: false,
+},
+{
+    name: "Onion",
+    faveTreat: "Green Onion",
+    isInside: true,
+}
+];
+
+for (let i = 0; i < horses.length; i++) {
+
+    let name = horses[i]["name"];
+    let faveTreat = horses[i]["faveTreat"];
+    let isHorseInside = horses[i]["isInside"];
+
+    console.log(horses[i]);
+console.log(horses[i]["faveTreat"]);
+console.log(name + ", come and get your " + faveTreat + "!");
+
+if (isHorseInside) {
+    console.log(name + ", come inside please and come get your " + faveTreat + ".");
+} else {
+    console.log(name + ", good job on already being cozy!");
+}
+}
+
+
+
+
