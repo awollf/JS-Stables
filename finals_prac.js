@@ -127,5 +127,5 @@ const stable = {
 //access an object through a dot notation 
 //SCENARIOS YOU USE EACH SKILL
 // Git hub push steps
-//push final stables
+
 

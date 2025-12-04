@@ -44,14 +44,12 @@ let horses = {
   },
 };
 
-// Access individual horses for easier logging
 let { horseOne, horseTwo, horseThree } = horses;
 
 console.log(horseOne.isHungry);
 console.log(horseTwo.isHungry);
 console.log(horseThree.isHungry);
 
-// Create an array of horses
 let horseList = [horseOne, horseTwo, horseThree];
 console.log(horseList);
 
@@ -96,7 +94,6 @@ intro: function() {
 };
 
 //INTRODUCTION is a method function
-
 horseNamedBeans.intro();
 
 console.log(horse);
@@ -107,7 +104,8 @@ function horseIntro(name, nickname) {
 }
 
 function horseIntro(horseToIntroduce) {
-  console.log("This horses name is" + horseToIntroduce.name + ", but you can call her " + horseToIntroduce.nickname + "!")
+  console.log("This horses name is" + horseToIntroduce.name + 
+    ", but you can call her " + horseToIntroduce.nickname + "!")
 }
 horseIntro(horseNamedPebbles);
 
