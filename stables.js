@@ -275,5 +275,3 @@ function updateHorsesLocation(horses, isGettingDark) {
     }
   }
 }
-
-
